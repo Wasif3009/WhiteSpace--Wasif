@@ -1,0 +1,207 @@
+/* -FONT SIZE SYSTEM (px) 
+/* 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+
+/* - SPACING SYSTEM (px) 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 
+*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+/*****************************************/
+/* REUSABLE CSS */
+
+/* BUTTON */
+.hero-button {
+  font-size: 1.8rem;
+  background-color: #4f9cf9;
+  color: #fff;
+  text-decoration: none;
+  padding: 1.6rem 4rem;
+  border-radius: 8px;
+  /* FIRST APPROACH */
+  display: inline-block;
+  /* FIRST APPROACH ENDED */
+
+  /* SECOND APPROACH */
+  /* display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 35%; */
+  /* SECOND APPROACH ENDED */
+}
+
+.hero-icon {
+  width: 1.2rem;
+  height: 1.2rem;
+  stroke: white;
+  margin-left: 1rem;
+}
+/* BUTTON ENDED */
+/*****************************************/
+
+/*****************************************/
+/* HEADER */
+.section-header {
+  background-color: #043873;
+  padding: 1.6rem 22rem;
+}
+
+.navigator {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* .logo {
+  width: 10%;
+}
+.whitespace-logo {
+  width: 100%;
+} */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+}
+
+.nav-btn {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+.navigators {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+.products {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.product {
+  font-size: 1.8rem;
+  color: white;
+}
+
+.nav-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  stroke: white;
+  padding: 0.4rem;
+}
+
+.login-button {
+  font-size: 1.8rem;
+  background-color: #ffe492;
+  color: #043873;
+  text-decoration: none;
+  padding: 1.6rem 4rem;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.try-button {
+  font-size: 1.8rem;
+  background-color: #4f9cf9;
+  color: #fff;
+  text-decoration: none;
+  padding: 1.6rem 4rem;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.try-icon {
+  width: 1.2rem;
+  height: 1.2rem;
+  stroke: white;
+}
+/*****************************************/
+
+/*****************************************/
+/* HERO */
+
+.section-hero {
+  background-color: #043873;
+  padding: 14rem 22rem;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 7rem;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.hero-title {
+  font-size: 6.4rem;
+  font-weight: 700;
+  line-height: 7rem;
+  letter-spacing: -2%;
+  color: #fff;
+  margin-bottom: 2.4rem;
+}
+
+.hero-desc {
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: 400;
+  line-height: 3rem;
+  letter-spacing: 1px;
+}
+
+.hero-button {
+  font-size: 1.8rem;
+  background-color: #4f9cf9;
+  color: #fff;
+  text-decoration: none;
+  padding: 1.6rem 4rem;
+  border-radius: 8px;
+  /* FIRST APPROACH */
+  display: inline-block;
+  /* FIRST APPROACH ENDED */
+
+  /* SECOND APPROACH */
+  /* display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 35%; */
+  /* SECOND APPROACH ENDED */
+}
+
+/* .hero-btn svg {
+  margin-left: 1rem;
+} */
+
+.hero-icon {
+  width: 1.2rem;
+  height: 1.2rem;
+  stroke: white;
+  margin-left: 1rem;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6rem;
+}
+
+/*****************************************/
+
+/*****************************************/
+/* HERO */
