@@ -48,6 +48,30 @@ body {
   margin-left: 1rem;
 }
 /* BUTTON ENDED */
+
+/* FONTS */
+.reusable-h2 {
+  font-size: 7.2rem;
+  font-weight: 700;
+  line-height: 8.7rem;
+  color: #212529;
+  margin-bottom: 2.4rem;
+}
+
+.reusable-p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 3rem;
+  color: #212529;
+}
+
+.color-white {
+  color: white;
+}
+
+.text-align {
+  text-align: center;
+}
 /*****************************************/
 
 /*****************************************/
@@ -204,4 +228,288 @@ body {
 /*****************************************/
 
 /*****************************************/
-/* HERO */
+/* MAIN */
+
+.section-main--first {
+  padding: 14rem 22rem;
+}
+
+.main-first {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+}
+
+.main-one {
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+}
+
+.main-one--img {
+  width: 100%;
+}
+
+.main-one--left {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  width: 45%;
+}
+
+.main-one--right {
+  width: 45%;
+}
+
+.main-two {
+  display: flex;
+  align-items: center;
+  gap: 8rem;
+}
+
+.main-two--left {
+  width: 45%;
+}
+
+.main-two--img {
+  width: 100%;
+}
+
+.main-two--right {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  width: 45%;
+}
+
+.section-main--second {
+  padding: 14rem 22rem;
+  background-color: #043873;
+}
+.main-second {
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+}
+
+.main-second--img {
+  width: 100%;
+}
+
+.main-second--left {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  width: 45%;
+}
+
+.main-second--right {
+  width: 45%;
+}
+
+.section-main--third {
+  padding: 14rem 22rem;
+}
+.main-third {
+  display: flex;
+  align-items: center;
+  gap: 8rem;
+}
+
+.main-third--img {
+  width: 100%;
+}
+
+.main-third--left {
+  width: 45%;
+}
+
+.main-third--right {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  width: 45%;
+}
+
+/*****************************************/
+
+/*****************************************/
+/* PRICING */
+
+.section-pricing {
+  padding: 14rem 22rem;
+}
+
+.pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.2rem;
+}
+.pricing-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1px;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.pricing-desc {
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 3rem;
+  color: #212529;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.free-text {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #212529;
+}
+
+.price {
+  font-size: 3.6rem;
+  font-weight: 700;
+  color: #212529;
+}
+
+.card-desc {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #212529;
+}
+
+.featuring {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.feature-icon {
+  height: 1.8rem;
+  width: 1.8rem;
+  stroke: #212529;
+}
+
+.features-desc {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #212529;
+  line-height: 2rem;
+}
+
+.feature ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2.8rem;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.card-one {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 4rem 4.4rem;
+  border: 1px solid #ffe492;
+  border-radius: 10px;
+}
+
+.special-card {
+  padding: 6rem 4.4rem;
+  background-color: #043873;
+  color: #fff;
+  border: none;
+}
+
+.special-card p {
+  color: #fff;
+}
+
+.special-card--header {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.special-card li {
+  font-size: 1.8rem;
+}
+
+.special-card .feature-icon {
+  width: 2.2rem;
+  height: 2.2rem;
+  stroke: #ffe492;
+}
+
+.special-card .free-text {
+  font-size: 3rem;
+}
+.special-card .price {
+  font-size: 4rem;
+  color: #ffe492;
+}
+
+.special-card .card-desc {
+  font-size: 2rem;
+}
+
+.special-card .features-desc {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.button-white {
+  background-color: #fff;
+  color: #212529;
+  border: 1px solid #ffe492;
+}
+
+/*****************************************/
+/* SECTION WORK */
+
+.section-work {
+  padding: 14rem 22rem;
+  background-color: #043873;
+}
+
+.work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 7rem;
+}
+/*****************************************/
+
+/*****************************************/
+/* SECTION DATA */
+
+/* SECTION MAIN-SECOND KO HI PURA REUSE KIYA HU */
+.no-color {
+  background-color: #fff;
+}
+/*****************************************/
