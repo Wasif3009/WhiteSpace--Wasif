@@ -65,6 +65,13 @@ body {
   color: #212529;
 }
 
+.bigger-p {
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 3rem;
+  color: #212529;
+}
+
 .color-white {
   color: white;
 }
@@ -439,7 +446,7 @@ body {
 }
 
 .special-card {
-  padding: 6rem 4.4rem;
+  padding: 7rem 4.4rem;
   background-color: #043873;
   color: #fff;
   border: none;
@@ -509,7 +516,301 @@ body {
 /* SECTION DATA */
 
 /* SECTION MAIN-SECOND KO HI PURA REUSE KIYA HU */
-/* .no-color {
+.no-color {
   background-color: #fff;
-} */
+}
 /*****************************************/
+
+/*****************************************/
+/* SPONSORS */
+
+.section-sponsors {
+  padding: 10rem 15rem;
+}
+
+.flex-sponsers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
+
+.companys {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15rem;
+}
+
+.apple-img {
+  width: 100%;
+}
+
+.microsoft-img {
+  width: 100%;
+}
+
+.slack-img {
+  width: 100%;
+}
+
+.google-img {
+  width: 100%;
+}
+
+/*****************************************/
+
+/*****************************************/
+/* SECTION APP */
+
+/* SECTION-MAIN--THIRD KO HI PURA REUSE KIYA HU */
+
+.color-blue {
+  background-color: #043873;
+}
+
+.width--46 {
+  width: 46%;
+}
+
+.width--44 {
+  width: 44%;
+}
+/*****************************************/
+/* TESTIMONIALS */
+
+.section-testimonials {
+  padding: 14rem 22rem;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6rem;
+  /* justify-content: center; */
+}
+
+.testimonial-container {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  padding: 6rem 4rem;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.testi-header {
+  padding-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  border-bottom: 1px solid #212529;
+}
+
+.quote-img {
+  width: 20%;
+}
+
+/* .customer-imgs {
+  width: 100%;
+} */
+
+.testi-footer {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+.testi-footer--name {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.testi-footer--desc {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.testi-footer--text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.flex--testimonals {
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+}
+
+.testi-blue {
+  background-color: #4f9cf9;
+}
+
+.border-white {
+  border: none;
+  border-bottom: 1px solid white;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.non-highlate--btn {
+  background-color: #4f9cf9;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 100px;
+  border: none;
+}
+
+.highlate--btn {
+  background-color: #043873;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 100px;
+  border: none;
+}
+/*****************************************/
+/*****************************************/
+/* FOOTER */
+
+.section-footer {
+  padding: 14rem 22rem;
+  padding-bottom: 3.2rem;
+  background-color: #043873;
+}
+
+.footer-apple-img {
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20rem;
+}
+
+.part-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+  padding: 0 45rem;
+}
+
+.part-one--footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6rem;
+}
+
+.part-one--footer---heading {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.footer-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.part-one--imgs {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.part-two {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.part-two--footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.part-two--header---parts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.part-two--header {
+  display: flex;
+  gap: 10rem;
+  align-items: flex-start;
+}
+
+.footer-part--two---title {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.footer-part--two---links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer-part--two---links a {
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+  /* text-align: center; */
+}
+
+.footer-part--two---links a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.tryittoday-text {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: white;
+}
+
+.footer-icon {
+  width: 2rem;
+  height: 2rem;
+  stroke: white;
+  color: white;
+}
+
+.part-two--footer---left-parts {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.part-two--footer---left {
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+}
+
+.part-two--footer---right {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+/*****************************************/
+/* STYLE.CSS DONE */
