@@ -1,0 +1,385 @@
+/******** DESKTOPS ********/
+
+/*****************************************/
+/* DESKTOP 1760PX */
+
+@media (max-width: 110rem) {
+  .section-header {
+    padding: 1.6rem 4rem;
+  }
+
+  .section-hero {
+    padding: 10rem 4rem;
+  }
+
+  .section-main--first {
+    padding: 14rem 4rem;
+  }
+
+  .section-main--second {
+    padding: 14rem 4rem;
+  }
+
+  .main-second {
+    gap: 10rem;
+  }
+
+  .section-main--third {
+    padding: 14rem 4rem;
+  }
+
+  .section-pricing {
+    padding: 14rem 4rem;
+  }
+
+  .section-work {
+    padding: 14rem 6rem;
+  }
+
+  .section-sponsors {
+    padding: 14rem 4rem;
+  }
+
+  .companys {
+    gap: 15rem;
+  }
+
+  .section-testimonials {
+    padding: 14rem 4rem;
+  }
+
+  .section-footer {
+    padding: 14rem 4rem;
+    padding-bottom: 4rem;
+  }
+}
+/*****************************************/
+
+/*****************************************/
+/* DESKTOP 1440PX */
+
+@media (max-width: 90rem) {
+  .section-header {
+    padding: 1.6rem 3.2rem;
+  }
+
+  .section-hero {
+    padding: 10rem 3.2rem;
+  }
+
+  .section-main--first {
+    padding: 14rem 3.2rem;
+  }
+
+  .section-main--second {
+    padding: 14rem 3.2rem;
+  }
+
+  .main-second {
+    gap: 10rem;
+  }
+
+  .section-main--third {
+    padding: 14rem 3.2rem;
+  }
+
+  .section-pricing {
+    padding: 14rem 3.2rem;
+  }
+
+  .section-work {
+    padding: 14rem 5rem;
+  }
+
+  .section-sponsors {
+    padding: 14rem 3.2rem;
+  }
+
+  .companys {
+    gap: 13rem;
+  }
+
+  .section-testimonials {
+    padding: 14rem 3.2rem;
+  }
+
+  .section-footer {
+    padding: 14rem 3.2rem;
+    padding-bottom: 3.2rem;
+  }
+
+  .part-one {
+    padding: 0 40rem;
+  }
+}
+
+/*****************************************/
+
+/*****************************************/
+/* DESKTOP 1328PX */
+
+@media (max-width: 83rem) {
+  .section-header {
+    padding: 1.6rem 2.2rem;
+  }
+
+  .nav-right {
+    gap: 2rem;
+  }
+
+  .section-hero {
+    padding: 10rem 2.2rem;
+  }
+
+  .section-main--first {
+    padding: 14rem 2.2rem;
+  }
+
+  .section-main--second {
+    padding: 14rem 2.2rem;
+  }
+
+  .main-second {
+    gap: 10rem;
+  }
+
+  .section-main--third {
+    padding: 14rem 2.2rem;
+  }
+
+  .section-pricing {
+    padding: 14rem 2.2rem;
+  }
+
+  .section-work {
+    padding: 14rem 5rem;
+  }
+
+  .section-sponsors {
+    padding: 14rem 3.2rem;
+  }
+
+  .companys {
+    gap: 9rem;
+  }
+
+  .section-testimonials {
+    padding: 14rem 2.2rem;
+  }
+
+  .section-footer {
+    padding: 14rem 2.2rem;
+    padding-bottom: 2.2rem;
+  }
+
+  .part-one {
+    padding: 0 38rem;
+  }
+
+  .smaller-button {
+    padding: 1.6rem 3rem;
+  }
+}
+/*****************************************/
+
+/*****************************************/
+/* DESKTOP 1168PX */
+
+@media (max-width: 75rem) {
+  html {
+    font-size: 50%;
+  }
+
+  .section-header {
+    padding: 1.6rem 3.2rem;
+  }
+
+  .navigators {
+    display: none;
+  }
+
+  .menu-icon--icons {
+    display: inline-block;
+  }
+
+  .section-hero {
+    padding: 10rem 3.2rem;
+  }
+
+  .section-main--first {
+    padding: 14rem 3.2rem;
+  }
+
+  .section-main--second {
+    padding: 14rem 3.2rem;
+  }
+
+  .main-second {
+    gap: 10rem;
+  }
+
+  .section-main--third {
+    padding: 14rem 3.2rem;
+  }
+
+  .section-pricing {
+    padding: 14rem 3.2rem;
+  }
+
+  .section-work {
+    padding: 12rem 7rem;
+  }
+
+  .work {
+    width: 55%;
+    align-items: flex-start;
+    gap: 5rem;
+  }
+
+  .not-aligned {
+    text-align: start;
+  }
+
+  .work-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+
+  .section-sponsors {
+    padding: 14rem 2.2rem;
+  }
+
+  .companys {
+    gap: 6rem;
+  }
+
+  .section-testimonials {
+    padding: 14rem 3.2rem;
+  }
+
+  .section-footer {
+    padding: 14rem 3.2rem;
+    padding-bottom: 3.2rem;
+  }
+
+  .part-one {
+    padding: 0 35rem;
+  }
+
+  .smaller-button {
+    padding: 1.6rem 3rem;
+  }
+
+  .part-two--header {
+    gap: 9rem;
+  }
+}
+/*****************************************/
+
+/*****************************************/
+
+/******** TABLETS ********/
+
+/*****************************************/
+/* TABLET 1040PX */
+
+@media (max-width: 65rem) {
+  html {
+    font-size: 49%;
+  }
+  .companys img {
+    max-width: 25%;
+  }
+
+  .testimonial-container {
+    padding: 5rem 3rem;
+  }
+
+  .part-one {
+    padding: 0 32rem;
+  }
+  .work {
+    width: 60%;
+  }
+  .smaller-button {
+    padding: 1.6rem 1.6rem;
+  }
+
+  .small-margin--left {
+    margin-left: 0.4rem;
+  }
+
+  .part-two--header {
+    gap: 8rem;
+  }
+}
+/*****************************************/
+
+/*****************************************/
+/* TABLET 880PX */
+
+@media (max-width: 55rem) {
+  html {
+    font-size: 46%;
+  }
+
+  .companys img {
+    max-width: 22%;
+  }
+
+  .section-sponsors {
+    padding: 14rem 2.2rem;
+    padding-top: 8rem;
+  }
+
+  .testimonial-container {
+    padding: 4rem 2rem;
+  }
+
+  .part-two--header {
+    gap: 6rem;
+  }
+}
+
+/*****************************************/
+
+/* 791PX TAK KA RESPONSIVE DONE */
+
+/*****************************************/
+
+/* TABLETS 800PX */
+@media (max-width: 50rem) {
+  /* HEADER AND HERO SECTION */
+  .section-hero {
+    padding: 18rem 8rem;
+  }
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero-left {
+    align-items: center;
+  }
+
+  .hero-right {
+    width: 70%;
+  }
+
+  .hero-title,
+  .hero-desc {
+    text-align: center;
+  }
+
+  .login-button,
+  .try-button {
+    display: none;
+  }
+
+  .menu-icon--icons {
+    height: 6rem;
+    width: 6rem;
+  }
+
+  /* MAIN FIRST */
+}

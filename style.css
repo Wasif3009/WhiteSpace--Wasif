@@ -159,6 +159,13 @@ body {
   height: 1.2rem;
   stroke: white;
 }
+
+.menu-icon--icons {
+  height: 4rem;
+  width: 4rem;
+  color: #fff;
+  display: none;
+}
 /*****************************************/
 
 /*****************************************/
@@ -175,7 +182,7 @@ body {
 }
 
 .hero-img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .hero-title {
@@ -254,7 +261,7 @@ body {
 }
 
 .main-one--img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .main-one--left {
@@ -265,7 +272,7 @@ body {
 }
 
 .main-one--right {
-  width: 45%;
+  max-width: 45%;
 }
 
 .main-two {
@@ -279,7 +286,7 @@ body {
 }
 
 .main-two--img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .main-two--right {
@@ -300,7 +307,7 @@ body {
 }
 
 .main-second--img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .main-second--left {
@@ -324,7 +331,7 @@ body {
 }
 
 .main-third--img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .main-third--left {
@@ -540,23 +547,23 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 15rem;
+  gap: 20rem;
 }
 
 .apple-img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .microsoft-img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .slack-img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .google-img {
-  width: 100%;
+  max-width: 100%;
 }
 
 /*****************************************/
@@ -610,7 +617,7 @@ body {
 }
 
 .quote-img {
-  width: 20%;
+  max-width: 20%;
 }
 
 /* .customer-imgs {
@@ -686,7 +693,7 @@ body {
 }
 
 .footer-apple-img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .footer {
