@@ -3,7 +3,7 @@
 /*****************************************/
 /* DESKTOP 1760PX */
 
-@media (max-width: 110rem) {
+@media (max-width: 110em) {
   .section-header {
     padding: 1.6rem 4rem;
   }
@@ -58,7 +58,7 @@
 /*****************************************/
 /* DESKTOP 1440PX */
 
-@media (max-width: 90rem) {
+@media (max-width: 90em) {
   .section-header {
     padding: 1.6rem 3.2rem;
   }
@@ -118,7 +118,7 @@
 /*****************************************/
 /* DESKTOP 1328PX */
 
-@media (max-width: 83rem) {
+@media (max-width: 83em) {
   .section-header {
     padding: 1.6rem 2.2rem;
   }
@@ -185,7 +185,7 @@
 /*****************************************/
 /* DESKTOP 1168PX */
 
-@media (max-width: 75rem) {
+@media (max-width: 75em) {
   html {
     font-size: 50%;
   }
@@ -277,14 +277,12 @@
 }
 /*****************************************/
 
-/*****************************************/
-
 /******** TABLETS ********/
 
 /*****************************************/
 /* TABLET 1040PX */
 
-@media (max-width: 65rem) {
+@media (max-width: 65em) {
   html {
     font-size: 49%;
   }
@@ -296,6 +294,9 @@
     padding: 5rem 3rem;
   }
 
+  .section-pricing {
+    padding-top: 0rem;
+  }
   .part-one {
     padding: 0 32rem;
   }
@@ -319,7 +320,7 @@
 /*****************************************/
 /* TABLET 880PX */
 
-@media (max-width: 55rem) {
+@media (max-width: 55em) {
   html {
     font-size: 46%;
   }
@@ -342,6 +343,15 @@
   .part-two--header {
     gap: 6rem;
   }
+
+  .section-sponsors {
+    padding-top: 0rem;
+    padding-bottom: 8rem;
+  }
+
+  .flex-sponsers {
+    gap: 6rem;
+  }
 }
 
 /*****************************************/
@@ -351,7 +361,7 @@
 /*****************************************/
 
 /* TABLETS 800PX */
-@media (max-width: 50rem) {
+@media (max-width: 50em) {
   /* HEADER AND HERO SECTION */
   .section-hero {
     padding: 18rem 8rem;
@@ -446,6 +456,14 @@
     width: 60%;
   }
 
+  .section-pricing {
+    padding-top: 0rem;
+  }
+
+  .section-sponsors {
+    padding-top: 0rem;
+  }
+
   .main-third--right {
     width: 90%;
     justify-content: center;
@@ -536,9 +554,15 @@
   .part-two--footer---left {
     gap: 10rem;
   }
-
+  .section-pricing {
+    padding-top: 0rem;
+  }
   .part-two {
     gap: 9rem;
+  }
+
+  .flex-sponsers {
+    gap: 5rem;
   }
 }
 /*****************************************/
@@ -546,7 +570,7 @@
 /*****************************************/
 /*  656PX*/
 
-@media (max-width: 41rem) {
+@media (max-width: 41em) {
   html {
     font-size: 45%;
   }
@@ -561,13 +585,23 @@
   .flex--testimonals {
     width: 200%;
   }
+
+  .section-pricing {
+    padding-top: 0rem;
+  }
+
+  .flex-sponsers {
+    gap: 5rem;
+  }
 }
 /*****************************************/
+
+/* MOBILES */
 
 /*****************************************/
 /* 496PX */
 
-@media (max-width: 31rem) {
+@media (max-width: 31em) {
   html {
     font-size: 43%;
   }
@@ -597,6 +631,7 @@
 
   .section-pricing {
     padding: 12rem 3.2rem;
+    padding-top: 0rem;
   }
 
   .section-work {
@@ -609,6 +644,7 @@
 
   .section-sponsors {
     padding: 10rem 3.2rem;
+    padding-top: 0rem;
   }
 
   .companys {
@@ -650,11 +686,17 @@
     align-items: center;
     justify-content: center;
   }
+
+  .footer {
+    gap: 15rem;
+  }
+
   .part-two--footer {
     align-items: center;
   }
 
   .part-two--footer---left {
+    gap: 3rem;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -682,7 +724,7 @@
 /*****************************************/
 /* 400Px */
 
-@media (max-width: 25rem) {
+@media (max-width: 25em) {
   html {
     font-size: 42%;
   }
@@ -712,6 +754,7 @@
 
   .section-pricing {
     padding: 10rem 3.2rem;
+    padding-top: 0rem;
   }
 
   .section-work {
@@ -724,6 +767,7 @@
 
   .section-sponsors {
     padding: 10rem 3.2rem;
+    padding-top: 0rem;
   }
 
   .companys {
@@ -796,7 +840,7 @@
 /*****************************************/
 /* 288PX */
 
-@media (max-width: 18rem) {
+@media (max-width: 18em) {
   html {
     font-size: 38%;
   }
