@@ -566,19 +566,117 @@
 
 /*****************************************/
 /* 496PX */
+
 @media (max-width: 31rem) {
   html {
-    font-size: 44%;
+    font-size: 43%;
+  }
+  .section-header {
+    padding: 1.6rem 3.2rem;
+  }
+
+  .section-hero {
+    padding: 9rem 3.2rem;
+  }
+
+  .section-main--first {
+    padding: 12rem 3.2rem;
+  }
+
+  .section-main--second {
+    padding: 12rem 3.2rem;
+  }
+
+  .main-second {
+    gap: 10rem;
+  }
+
+  .section-main--third {
+    padding: 12rem 3.2rem;
+  }
+
+  .section-pricing {
+    padding: 12rem 3.2rem;
+  }
+
+  .section-work {
+    padding: 12rem 4rem;
+  }
+
+  .work {
+    width: 100%;
+  }
+
+  .section-sponsors {
+    padding: 10rem 3.2rem;
+  }
+
+  .companys {
+    gap: 13rem;
+  }
+
+  .section-testimonials {
+    padding: 10rem 3.2rem;
+  }
+
+  .section-footer {
+    padding: 10rem 3.2rem;
+    padding-bottom: 3.2rem;
+  }
+
+  .companys img {
+    max-width: 60%;
+  }
+
+  .part-two--header---parts {
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-logo {
+    width: 50%;
+  }
+
+  .part-two--header {
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .part-two--header---parts p {
+    text-align: center;
+  }
+
+  .footer-part--two---links {
+    align-items: center;
+    justify-content: center;
+  }
+  .part-two--footer {
+    align-items: center;
   }
 
   .part-two--footer---left {
-    gap: 3rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .flex--testimonals {
-    width: 225%;
+    width: 300%;
+  }
+
+  .part-two {
+    align-items: center;
+  }
+
+  .part-one--imgs img {
+    max-width: 20%;
+  }
+
+  .reusable-h2 {
+    font-size: 6.4rem;
   }
 }
+
 /*****************************************/
 
 /*****************************************/
@@ -715,3 +813,6 @@
     width: 325%;
   }
 }
+/*****************************************/
+
+/*****************************************/
