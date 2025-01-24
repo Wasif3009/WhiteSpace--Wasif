@@ -76,6 +76,10 @@ body {
   color: white;
 }
 
+.no-color {
+  background-color: #fff;
+}
+
 .text-align {
   text-align: center;
 }
@@ -369,6 +373,7 @@ body {
   justify-content: center;
   gap: 3.2rem;
 }
+
 .pricing-text {
   display: flex;
   flex-direction: column;
@@ -700,7 +705,7 @@ body {
 .footer {
   display: flex;
   flex-direction: column;
-  gap: 20rem;
+  gap: 18rem;
 }
 
 .part-one {
