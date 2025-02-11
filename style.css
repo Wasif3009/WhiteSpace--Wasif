@@ -297,7 +297,7 @@ body {
 .main-two--right {
   display: flex;
   flex-direction: column;
-  gap: 6rem;
+  gap: 5rem;
   width: 45%;
 }
 
